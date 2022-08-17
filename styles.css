@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&family=Dancing+Script:wght@700&family=Heebo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;700&family=Montserrat:wght@300;900&family=Noto+Sans:wght@400;500&family=Oswald:wght@400;500;600;700&family=Pacifico&family=Poppins:wght@400;600&family=Roboto:wght@300&family=Rubik:wght@400;500;600;700&display=swap");
+
+/***********************************/
+/* RESET */
+/***********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #efecf8;
+  overflow-x: hidden;
+}
+
+/***********************************/
+/* GENERAL REUSABLE COMPONENTS */
+/***********************************/
+
+button {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1.8rem 2.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 4.2rem;
+  background-color: #5d44aa;
+  color: white;
+  border: none;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+button:hover {
+  background-color: #413077;
+}
+
+.check {
+  width: 2.2rem;
+  height: 2.2rem;
+  accent-color: #5d44aa;
+}
+
+.list,
+.events-list,
+.direct-causes-list,
+.root-causes-list,
+.corrective-actions-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.list {
+  gap: 1.6rem;
+}
+
+.events-list {
+  gap: 1.6rem;
+}
+
+.root-causes-list,
+.direct-causes-list {
+  gap: 1.4rem;
+}
+
+.corrective-action-title {
+  font-size: 1.9rem;
+  color: #5d44aa;
+  font-weight: 500;
+}
+
+.corrective-actions-list {
+  gap: 2.4rem;
+}
+
+.corrective-action,
+.item {
+  display: grid;
+  grid-template-columns: 1fr 50fr;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.true {
+  width: 2.1rem;
+  height: 2.1rem;
+  color: #5d44aa;
+}
+
+.hidden {
+  display: none;
+}
+
+.disable {
+  cursor: not-allowed;
+  background-color: #9e8fcc;
+}
+
+.disable:hover {
+  background-color: #9e8fcc;
+}
+
+.margin-top {
+  margin-top: 1.8rem;
+}
+
+/***********************************/
+/* MAIN STYLE */
+/***********************************/
+
+header {
+  background: linear-gradient(
+    0deg,
+    rgba(50, 42, 75, 1) 0%,
+    rgba(125, 105, 187, 1) 92%
+  );
+  text-align: center;
+  color: white;
+  padding: 3.2rem 0;
+  margin-bottom: 6.4rem;
+}
+
+.header-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.4rem;
+}
+
+.sub-category-title {
+  font-size: 2.6rem;
+  color: #413077;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 90rem;
+  padding: 1rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+}
+
+.sub-container {
+  background-color: white;
+  padding: 3.8rem 2.4rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.corrective-list {
+  grid-column: 2/3;
+}
+
+.corrective-action-p {
+  margin: 5px 0;
+}
+
+.component {
+  background-color: #5d44aa;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.component-title {
+  text-align: center;
+  margin: 1.6rem;
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.corrective-action {
+  align-items: center;
+}
+
+.copyrights {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 5.2rem;
+  background-color: #251b44;
+  color: white;
+  margin-top: 9rem;
+}
+
+/***********************************/
+/* MEDIA QUERIES */
+/***********************************/
+
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
+  }
+}

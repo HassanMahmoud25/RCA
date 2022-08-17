@@ -1,0 +1,98 @@
+export const rootCausesArr = [
+  {
+    id: 0,
+    cause: "Inadequate Physical/Physiological Capability",
+    cas: [4, 6, 11, 12, 13, 15, 18],
+    category: "personal factors",
+  },
+  {
+    id: 1,
+    cause: "Inadequate Mental/Psychological Capability",
+    cas: [1, 4, 6, 8, 12, 13, 15, 18, 20],
+    category: "personal factors",
+  },
+  {
+    id: 2,
+    cause: "Physical or Physiological Stress",
+    cas: [4, 5, 6, 7, 9, 11, 12, 15, 18, 20, 22],
+    category: "personal factors",
+  },
+  {
+    id: 3,
+    cause: "Mental or Psychological Stress",
+    cas: [1, 4, 5, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20, 21, 22],
+    category: "personal factors",
+  },
+  {
+    id: 4,
+    cause: "Lack of Knowledge",
+    cas: [2, 4, 5, 6, 8, 9, 10, 11, 14, 15, 16, 17, 18, 21, 22],
+    category: "personal factors",
+  },
+  {
+    id: 5,
+    cause: " Lack of Skill",
+    cas: [2, 4, 6, 7, 9, 10, 13, 15, 16, 18, 21, 22],
+    category: "personal factors",
+  },
+  {
+    id: 6,
+    cause: "Improper Motivation",
+    cas: [1, 2, 4, 5, 6, 8, 10, 11, 13, 15, 16, 17, 20, 21, 22],
+    category: "personal factors",
+  },
+  {
+    id: 7,
+    cause: "Abuse or Misuse",
+    cas: [1, 2, 3, 4, 5, 6, 8, 10, 13, 14, 15, 21, 22],
+    category: "personal factors",
+  },
+  {
+    id: 8,
+    cause: "Inadequate Leadership and/or Supervision",
+    cas: [1, 2, 3, 5, 6, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
+    category: "system factors",
+  },
+  {
+    id: 9,
+    cause: "Inadequate Engineering",
+    cas: [1, 3, 4, 12, 13, 14, 19, 21, 22],
+    category: "system factors",
+  },
+  {
+    id: 10,
+    cause: " Inadequate Purchasing",
+    cas: [1, 3, 6, 11, 12, 13, 14, 19, 21, 22],
+    category: "system factors",
+  },
+  {
+    id: 11,
+    cause: "Inadequate Maintenance",
+    cas: [3, 4, 6, 8, 10, 13, 14, 19, 21, 22],
+    category: "system factors",
+  },
+  {
+    id: 12,
+    cause: "Inadequate Tools and Equipment",
+    cas: [1, 3, 4, 6, 7, 8, 11, 12, 13, 19, 21, 22],
+    category: "system factors",
+  },
+  {
+    id: 13,
+    cause: "Inadequate Work Standards",
+    cas: [1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 21, 22],
+    category: "system factors",
+  },
+  {
+    id: 14,
+    cause: "Excessive Wear and Tear",
+    cas: [3, 4, 6, 9, 11, 12, 13, 14, 19, 21, 22],
+    category: "system factors",
+  },
+  {
+    id: 15,
+    cause: "Inadequate Communications",
+    cas: [1, 2, 4, 5, 6, 7, 9, 10, 12, 14, 15, 16, 17, 19, 21, 22],
+    category: "system factors",
+  },
+];

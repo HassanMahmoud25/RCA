@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>RCA</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">Root Cause Analysis</h1>
+    </header>
+
+    <main class="container">
+      <!-- Events component -->
+      <div class="component events">
+        <h3 class="component-title">Type of Event</h3>
+        <div class="sub-container">
+          <ul class="events-list">
+            <!-- ... -->
+          </ul>
+          <button class="btn-direct-causes disable">Direct Causes</button>
+        </div>
+      </div>
+
+      <!-- Direct causes component -->
+      <div class="component direct hidden">
+        <p class="component-title">Direct Causes</p>
+        <div class="sub-container">
+          <div class="direct-causes-list">
+            <p class="sub-category-title">Substandard Acts</p>
+            <ul class="substandard-acts list"></ul>
+            <p class="sub-category-title margin-top">Substandard Conditions</p>
+            <ul class="substandard-conditions list"></ul>
+          </div>
+          <button class="btn-root-causes disable">Root Causes</button>
+        </div>
+      </div>
+
+      <!-- Root causes component -->
+      <div class="component root hidden">
+        <p class="component-title">Root Causes</p>
+        <div class="sub-container">
+          <div class="root-causes-list">
+            <p class="sub-category-title">Substandard Acts</p>
+            <ul class="personal-factors list"></ul>
+            <p class="sub-category-title margin-top">Substandard Conditions</p>
+            <ul class="system-factors list"></ul>
+          </div>
+          <button class="btn-corrective-actions disable">
+            Corrective Actions
+          </button>
+        </div>
+      </div>
+
+      <!-- Corrective actions component -->
+      <div class="component corrective hidden">
+        <p class="component-title">Corrective Actions</p>
+        <div class="sub-container">
+          <ul class="corrective-actions-list">
+            <!-- ... -->
+          </ul>
+          <button class="download-word disable">Export as Word</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Copyrights -->
+    <footer class="copyrights">All rigths reserved &copy; 2022</footer>
+
+    <script defer type="module" src="main.js"></script>
+  </body>
+</html>
